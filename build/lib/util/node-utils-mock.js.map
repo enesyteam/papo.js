@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../lib/util/node-utils-mock.js"],"names":[],"mappings":";;;;;QACgB,oB,GAAA,oB;AADhB;AACO,SAAS,oBAAT,CAA+B,QAA/B,EAA0C;AAChD,QAAO,QAAP;AACA","file":"node-utils-mock.js","sourcesContent":["// In browser environments, this function is a no-op.\nexport function nodeFilenameToStream( filename ) {\n\treturn filename;\n}\n"]}

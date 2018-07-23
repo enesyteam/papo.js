@@ -26,8 +26,6 @@ test-results*.xml
 
 /coverage
 
-/build
-
 /public/*.js
 /public/*.js.map
 /public/style*.css
