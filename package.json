@@ -24,7 +24,7 @@
   "_spec": "wpcom",
   "_where": "C:\\Users\\Cong\\Documents\\GitHub\\x",
   "author": {
-    "name": "Automattic, Inc."
+    "name": "Ca Com."
   },
   "babel": {
     "presets": [
@@ -36,38 +36,14 @@
     "./build/lib/util/fs.js": "./build/lib/util/fs-browser.js"
   },
   "bugs": {
-    "url": "https://github.com/Automattic/wpcom.js/issues"
+    "url": "https://github.com/enesyteam/papo.js/issues"
   },
   "bundleDependencies": false,
   "contributors": [
     {
-      "name": "Damian Suarez",
-      "email": "rdsuarez@gmail.com"
+      "name": "Enesyteam",
+      "email": "congnvc@gmail.com"
     },
-    {
-      "name": "Dennis Snell",
-      "email": "dennis.snell@automattic.com"
-    },
-    {
-      "name": "Nathan Rajlich",
-      "email": "nathan@automattic.com"
-    },
-    {
-      "name": "Matt Sherman",
-      "email": "matt.sherman@automattic.com"
-    },
-    {
-      "name": "Timmy Crawford",
-      "email": "timmy.crawford@automattic.com"
-    },
-    {
-      "name": "Benoit Person",
-      "email": "benoit.person@gmail.com"
-    },
-    {
-      "name": "Jake Fried",
-      "email": "jake.fried@automattic.com"
-    }
   ],
   "dependencies": {
     "babel-runtime": "^6.9.2",
@@ -76,7 +52,7 @@
     "wpcom-xhr-request": "1.0.0"
   },
   "deprecated": false,
-  "description": "Official JavaScript library for the WordPress.com REST API",
+  "description": "Official JavaScript library for the PAPO REST API",
   "devDependencies": {
     "babel-eslint": "^6.1.2",
     "babel-preset-es2015": "^6.9.0",
@@ -94,10 +70,10 @@
     "History.md",
     "README.md"
   ],
-  "homepage": "https://github.com/Automattic/wpcom.js#readme",
+  "homepage": "https://github.com/enesyteam/papo.js#readme",
   "keywords": [
-    "wordpress",
-    "wordpress.com",
+    "papo",
+    "papojs",
     "browser",
     "rest",
     "api",
@@ -105,13 +81,13 @@
   ],
   "license": "MIT",
   "main": "build/index.js",
-  "name": "wpcom",
+  "name": "papo",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/Automattic/wpcom.js.git"
+    "url": "git+ssh://git@github.com/enesyteam/papo.js.git"
   },
   "scripts": {
     "build": "webpack -p --config ./webpack.config.js"
   },
-  "version": "5.4.1"
+  "version": "0.0.1"
 }
