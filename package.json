@@ -1,0 +1,117 @@
+{
+  "_from": "wpcom",
+  "_id": "wpcom@5.4.1",
+  "_inBundle": false,
+  "_integrity": "sha512-dahgmqzWsEOJywVVg+o5fQpfovkk/hajEo28GqLUu++NgsVHTo7K1CEmwBVSsicQcTOjHe/GHfq52hl6Ri1CVg==",
+  "_location": "/wpcom",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "wpcom",
+    "name": "wpcom",
+    "escapedName": "wpcom",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/wpcom/-/wpcom-5.4.1.tgz",
+  "_shasum": "b6024b670e2e995ba20eb4b5d85a813e24861a55",
+  "_spec": "wpcom",
+  "_where": "C:\\Users\\Cong\\Documents\\GitHub\\x",
+  "author": {
+    "name": "Automattic, Inc."
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "browser": {
+    "./build/lib/util/fs.js": "./build/lib/util/fs-browser.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Automattic/wpcom.js/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Damian Suarez",
+      "email": "rdsuarez@gmail.com"
+    },
+    {
+      "name": "Dennis Snell",
+      "email": "dennis.snell@automattic.com"
+    },
+    {
+      "name": "Nathan Rajlich",
+      "email": "nathan@automattic.com"
+    },
+    {
+      "name": "Matt Sherman",
+      "email": "matt.sherman@automattic.com"
+    },
+    {
+      "name": "Timmy Crawford",
+      "email": "timmy.crawford@automattic.com"
+    },
+    {
+      "name": "Benoit Person",
+      "email": "benoit.person@gmail.com"
+    },
+    {
+      "name": "Jake Fried",
+      "email": "jake.fried@automattic.com"
+    }
+  ],
+  "dependencies": {
+    "babel-runtime": "^6.9.2",
+    "debug": "^2.2.0",
+    "qs": "^4.0.0",
+    "wpcom-xhr-request": "1.0.0"
+  },
+  "deprecated": false,
+  "description": "Official JavaScript library for the WordPress.com REST API",
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.11.0",
+    "babel-register": "^6.9.0",
+    "eslint": "^3.6.1",
+    "mocha": "^2.5.3",
+    "n8-make": "1.4.0",
+    "webpack": "^1.13.1",
+    "wpcom-oauth-cors": "^1.0.0",
+    "wpcom-proxy-request": "^3.0.0"
+  },
+  "files": [
+    "build",
+    "History.md",
+    "README.md"
+  ],
+  "homepage": "https://github.com/Automattic/wpcom.js#readme",
+  "keywords": [
+    "wordpress",
+    "wordpress.com",
+    "browser",
+    "rest",
+    "api",
+    "library"
+  ],
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "wpcom",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Automattic/wpcom.js.git"
+  },
+  "scripts": {
+    "build": "webpack -p --config ./webpack.config.js"
+  },
+  "version": "5.4.1"
+}
